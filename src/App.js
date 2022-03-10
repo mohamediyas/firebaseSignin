@@ -3,6 +3,8 @@ import getFirebase from "./Firebase";
 import useInput from "./useInput";
 import { useEffect, useState } from "react";
 
+// sigin
+
 export default function App() {
   const firebase = getFirebase();
   const [currentUser, setCurrentUser] = useState("");
